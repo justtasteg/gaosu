@@ -1,50 +1,72 @@
 proxies:
-  - {name: 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅), server: top-sz.gov-ddns.cn, port: 27820, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港HGC-3丨解锁HK流媒体丨, server: top-sz.gov-ddns.cn, port: 27817, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港HGC-4丨解锁HK流媒体丨, server: top-sz.gov-ddns.cn, port: 27818, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港SC-5丨解锁SG流媒体丨, server: top-sz.gov-ddns.cn, port: 27815, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港SC-6丨解锁SG流媒体丨, server: top-sz.gov-ddns.cn, port: 27816, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇰🇷 韩国原生1-负载均衡-解锁流媒体, server: kor1.lolvps.xyz, port: 40020, type: vmess, uuid: 77005b76-6917-4e2a-815c-d06b2bfa0bed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /DYUSC0AP, ws-headers: {Host: kor1.lolvps.xyz}}
-  - {name: 🇰🇷 韩国原生2-负载均衡-解锁流媒体, server: kor2.lolvps.xyz, port: 40023, type: vmess, uuid: f829ce42-0f03-4e66-b18f-34b070fcbf93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /GAMS0Y7X, ws-headers: {Host: kor2.lolvps.xyz}}
-  - {name: 🇯🇵 日本原生1-负载均衡-解锁流媒体, server: jp1.lolvps.xyz, port: 30020, type: vmess, uuid: 24619dee-3117-4b1a-b903-93d6b2db4697, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /F39I9NQN, ws-headers: {Host: jp1.lolvps.xyz}}
-  - {name: 🇯🇵 日本原生2-负载均衡-解锁流媒体, server: jp2.lolvps.xyz, port: 30021, type: vmess, uuid: c838324f-06e7-4754-9953-7043c3ca6a81, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0IY50BPB, ws-headers: {Host: jp2.lolvps.xyz}}
-  - {name: 🇬🇧 英国原生-负载均衡-解锁流媒体, server: uk1.lolvps.xyz, port: 60011, type: vmess, uuid: 9b30eff8-927b-4a57-b172-589cbb095ae4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Z5XJBUDL, ws-headers: {Host: uk1.lolvps.xyz}}
-  - {name: 🇬🇧 英国原生-负载均衡-解锁流媒体 2, server: uk4.lolvps.xyz, port: 60012, type: vmess, uuid: e8b32273-4c2f-4cb6-a768-7f2378346062, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /F1HHEKOX, ws-headers: {Host: uk4.lolvps.xyz}}
-  - {name: 🇺🇲 美国原生1-负载均衡-解锁流媒体, server: us1.lolvps.xyz, port: 60050, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}}
-  - {name: 🇺🇲 美国原生2-负载均衡-解锁流媒体, server: us2.lolvps.xyz, port: 60051, type: vmess, uuid: bf9a1ef0-9e68-447b-ae58-6617b2eedffa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /MI3W3NM8, ws-headers: {Host: us2.lolvps.xyz}}
-  - {name: 🇨🇳 台湾01丨原生IP丨, server: gov-cscu.daliddns.cn, port: 22004, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇨🇳 台湾02丨原生IP丨, server: gybgp.leoddns.cn, port: 59605, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇸🇬 新加坡01丨原生IP丨, server: top-sz.gov-ddns.cn, port: 30997, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇸🇬 新加坡02丨原生IP丨, server: top-sz.gov-ddns.cn, port: 30998, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇸🇬 新加坡03丨原生IP丨, server: top-sz.gov-ddns.cn, port: 30998, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇯🇵 日本丨①, server: shct.xn--mes98khzje07c.xyz, port: 22007, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇯🇵 日本丨②, server: shct.xn--mes98khzje07c.xyz, port: 22008, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇯🇵 日本丨③, server: shct.xn--mes98khzje07c.xyz, port: 22009, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇲 美国丨x1丨原生线路, server: us1.keaiyun.top, port: 48514, type: vmess, uuid: d1a8e45d-efb2-319f-949e-fccea86a3188, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇨🇳 TW1(如遇节点失效请点击左上角订阅), server: cn1.iepl.starlink.st, port: 50200, type: ss, cipher: aes-128-gcm, password: 5263992c-6009-4e65-815e-6b735c9c410b}
+  - {name: 🇯🇵 JP1(IEPL)+-+负载均衡专线, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: 5263992c-6009-4e65-815e-6b735c9c410b}
+  - {name: 🇰🇷 KR1(IEPL)+-+负载均衡专线, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: 5263992c-6009-4e65-815e-6b735c9c410b}
+  - {name: 🇸🇬 SG1(IEPL)+-+负载均衡专线, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: 5263992c-6009-4e65-815e-6b735c9c410b}
+  - {name: 🇺🇲 US1(IEPL)+-+负载均衡专线, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: 5263992c-6009-4e65-815e-6b735c9c410b}
+  - {name: 🇷🇺 RU1(IEPL)+-+负载均衡专线, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: 5263992c-6009-4e65-815e-6b735c9c410b}
+  - {name: 🇭🇰 香港HGC-1丨流媒体解锁丨, server: www.125368.cloud, port: 48511, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港HGC-2丨流媒体解锁丨, server: www.125368.cloud, port: 48512, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港HGC-3丨解锁HK流媒体丨, server: www.125368.cloud, port: 48513, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港HGC-4丨解锁HK流媒体丨, server: www.125368.cloud, port: 48514, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港SC-5丨解锁SG流媒体丨, server: www.125368.cloud, port: 48515, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港SC-6丨解锁SG流媒体丨, server: www.125368.cloud, port: 48516, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港原生1-负载均衡-解锁流媒体, server: hk1.lolvps.xyz, port: 50031, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /D1LYYDHH, ws-headers: {Host: hk1.lolvps.xyz}}
+  - {name: 🇰🇷 韩国原生1-负载均衡-解锁流媒体, server: kor1.lolvps.xyz, port: 40030, type: vmess, uuid: 77005b76-6917-4e2a-815c-d06b2bfa0bed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /DYUSC0AP, ws-headers: {Host: kor1.lolvps.xyz}}
+  - {name: 🇰🇷 韩国原生2-负载均衡-解锁流媒体, server: kor2.lolvps.xyz, port: 40033, type: vmess, uuid: f829ce42-0f03-4e66-b18f-34b070fcbf93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /GAMS0Y7X, ws-headers: {Host: kor2.lolvps.xyz}}
+  - {name: 🇰🇷 韩国原生3-负载均衡-解锁流媒体, server: kor3.lolvps.xyz, port: 40034, type: vmess, uuid: ad470e66-6851-45bb-bc8d-c2f5f7b0e361, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /AQFLW40C, ws-headers: {Host: kor3.lolvps.xyz}}
+  - {name: 🇯🇵 日本原生1-负载均衡-解锁流媒体, server: jp1.lolvps.xyz, port: 30030, type: vmess, uuid: 24619dee-3117-4b1a-b903-93d6b2db4697, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /F39I9NQN, ws-headers: {Host: jp1.lolvps.xyz}}
+  - {name: 🇯🇵 日本原生2-负载均衡-解锁流媒体, server: jp2.lolvps.xyz, port: 30031, type: vmess, uuid: c838324f-06e7-4754-9953-7043c3ca6a81, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /0IY50BPB, ws-headers: {Host: jp2.lolvps.xyz}}
+  - {name: 🇯🇵 日本原生3-负载均衡-解锁流媒体, server: jp3.lolvps.xyz, port: 30032, type: vmess, uuid: a4ca5bcd-b869-40d1-a22b-ffedde600ac3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /HQMVPI9Y, ws-headers: {Host: jp3.lolvps.xyz}}
+  - {name: 🇺🇲 美国原生1-负载均衡-解锁流媒体, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}}
+  - {name: 🇺🇲 美国原生2-负载均衡-解锁流媒体, server: us2.lolvps.xyz, port: 60061, type: vmess, uuid: bf9a1ef0-9e68-447b-ae58-6617b2eedffa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /MI3W3NM8, ws-headers: {Host: us2.lolvps.xyz}}
+  - {name: 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体, server: ru1.lolvps.xyz, port: 40040, type: vmess, uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /6129CFHR, ws-headers: {Host: ru1.lolvps.xyz}}
+  - {name: 🇨🇳 台湾01丨原生IP丨, server: www.125368.cloud, port: 55154, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇨🇳 台湾02丨原生IP丨, server: www.125368.cloud, port: 55155, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡01丨原生IP丨, server: www.125368.cloud, port: 48517, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡03丨原生IP丨, server: www.125368.cloud, port: 48519, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡4, server: www.125368.cloud, port: 48550, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡5, server: www.125368.cloud, port: 48551, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡6, server: www.125368.cloud, port: 48552, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇯🇵 日本丨①, server: www.125368.cloud, port: 55151, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇯🇵 日本丨②, server: www.125368.cloud, port: 55152, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇯🇵 日本丨③, server: www.125368.cloud, port: 55153, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇲 美国丨x1丨原生线路, server: www.125368.cloud, port: 55156, type: vmess, uuid: 946ded33-4de2-30a2-8cbb-eaa0a196a784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅)
+      - 🇨🇳 TW1(如遇节点失效请点击左上角订阅)
+      - 🇯🇵 JP1(IEPL)+-+负载均衡专线
+      - 🇰🇷 KR1(IEPL)+-+负载均衡专线
+      - 🇸🇬 SG1(IEPL)+-+负载均衡专线
+      - 🇺🇲 US1(IEPL)+-+负载均衡专线
+      - 🇷🇺 RU1(IEPL)+-+负载均衡专线
+      - 🇭🇰 香港HGC-1丨流媒体解锁丨
+      - 🇭🇰 香港HGC-2丨流媒体解锁丨
       - 🇭🇰 香港HGC-3丨解锁HK流媒体丨
       - 🇭🇰 香港HGC-4丨解锁HK流媒体丨
       - 🇭🇰 香港SC-5丨解锁SG流媒体丨
       - 🇭🇰 香港SC-6丨解锁SG流媒体丨
+      - 🇭🇰 香港原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生2-负载均衡-解锁流媒体
+      - 🇰🇷 韩国原生3-负载均衡-解锁流媒体
       - 🇯🇵 日本原生1-负载均衡-解锁流媒体
       - 🇯🇵 日本原生2-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体 2
+      - 🇯🇵 日本原生3-负载均衡-解锁流媒体
       - 🇺🇲 美国原生1-负载均衡-解锁流媒体
       - 🇺🇲 美国原生2-负载均衡-解锁流媒体
+      - 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体
       - 🇨🇳 台湾01丨原生IP丨
       - 🇨🇳 台湾02丨原生IP丨
       - 🇸🇬 新加坡01丨原生IP丨
-      - 🇸🇬 新加坡02丨原生IP丨
       - 🇸🇬 新加坡03丨原生IP丨
+      - 🇸🇬 新加坡4
+      - 🇸🇬 新加坡5
+      - 🇸🇬 新加坡6
       - 🇯🇵 日本丨①
       - 🇯🇵 日本丨②
       - 🇯🇵 日本丨③
@@ -54,24 +76,35 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅)
+      - 🇨🇳 TW1(如遇节点失效请点击左上角订阅)
+      - 🇯🇵 JP1(IEPL)+-+负载均衡专线
+      - 🇰🇷 KR1(IEPL)+-+负载均衡专线
+      - 🇸🇬 SG1(IEPL)+-+负载均衡专线
+      - 🇺🇲 US1(IEPL)+-+负载均衡专线
+      - 🇷🇺 RU1(IEPL)+-+负载均衡专线
+      - 🇭🇰 香港HGC-1丨流媒体解锁丨
+      - 🇭🇰 香港HGC-2丨流媒体解锁丨
       - 🇭🇰 香港HGC-3丨解锁HK流媒体丨
       - 🇭🇰 香港HGC-4丨解锁HK流媒体丨
       - 🇭🇰 香港SC-5丨解锁SG流媒体丨
       - 🇭🇰 香港SC-6丨解锁SG流媒体丨
+      - 🇭🇰 香港原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生2-负载均衡-解锁流媒体
+      - 🇰🇷 韩国原生3-负载均衡-解锁流媒体
       - 🇯🇵 日本原生1-负载均衡-解锁流媒体
       - 🇯🇵 日本原生2-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体 2
+      - 🇯🇵 日本原生3-负载均衡-解锁流媒体
       - 🇺🇲 美国原生1-负载均衡-解锁流媒体
       - 🇺🇲 美国原生2-负载均衡-解锁流媒体
+      - 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体
       - 🇨🇳 台湾01丨原生IP丨
       - 🇨🇳 台湾02丨原生IP丨
       - 🇸🇬 新加坡01丨原生IP丨
-      - 🇸🇬 新加坡02丨原生IP丨
       - 🇸🇬 新加坡03丨原生IP丨
+      - 🇸🇬 新加坡4
+      - 🇸🇬 新加坡5
+      - 🇸🇬 新加坡6
       - 🇯🇵 日本丨①
       - 🇯🇵 日本丨②
       - 🇯🇵 日本丨③
@@ -82,24 +115,35 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅)
+      - 🇨🇳 TW1(如遇节点失效请点击左上角订阅)
+      - 🇯🇵 JP1(IEPL)+-+负载均衡专线
+      - 🇰🇷 KR1(IEPL)+-+负载均衡专线
+      - 🇸🇬 SG1(IEPL)+-+负载均衡专线
+      - 🇺🇲 US1(IEPL)+-+负载均衡专线
+      - 🇷🇺 RU1(IEPL)+-+负载均衡专线
+      - 🇭🇰 香港HGC-1丨流媒体解锁丨
+      - 🇭🇰 香港HGC-2丨流媒体解锁丨
       - 🇭🇰 香港HGC-3丨解锁HK流媒体丨
       - 🇭🇰 香港HGC-4丨解锁HK流媒体丨
       - 🇭🇰 香港SC-5丨解锁SG流媒体丨
       - 🇭🇰 香港SC-6丨解锁SG流媒体丨
+      - 🇭🇰 香港原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生2-负载均衡-解锁流媒体
+      - 🇰🇷 韩国原生3-负载均衡-解锁流媒体
       - 🇯🇵 日本原生1-负载均衡-解锁流媒体
       - 🇯🇵 日本原生2-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体 2
+      - 🇯🇵 日本原生3-负载均衡-解锁流媒体
       - 🇺🇲 美国原生1-负载均衡-解锁流媒体
       - 🇺🇲 美国原生2-负载均衡-解锁流媒体
+      - 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体
       - 🇨🇳 台湾01丨原生IP丨
       - 🇨🇳 台湾02丨原生IP丨
       - 🇸🇬 新加坡01丨原生IP丨
-      - 🇸🇬 新加坡02丨原生IP丨
       - 🇸🇬 新加坡03丨原生IP丨
+      - 🇸🇬 新加坡4
+      - 🇸🇬 新加坡5
+      - 🇸🇬 新加坡6
       - 🇯🇵 日本丨①
       - 🇯🇵 日本丨②
       - 🇯🇵 日本丨③
@@ -109,24 +153,35 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅)
+      - 🇨🇳 TW1(如遇节点失效请点击左上角订阅)
+      - 🇯🇵 JP1(IEPL)+-+负载均衡专线
+      - 🇰🇷 KR1(IEPL)+-+负载均衡专线
+      - 🇸🇬 SG1(IEPL)+-+负载均衡专线
+      - 🇺🇲 US1(IEPL)+-+负载均衡专线
+      - 🇷🇺 RU1(IEPL)+-+负载均衡专线
+      - 🇭🇰 香港HGC-1丨流媒体解锁丨
+      - 🇭🇰 香港HGC-2丨流媒体解锁丨
       - 🇭🇰 香港HGC-3丨解锁HK流媒体丨
       - 🇭🇰 香港HGC-4丨解锁HK流媒体丨
       - 🇭🇰 香港SC-5丨解锁SG流媒体丨
       - 🇭🇰 香港SC-6丨解锁SG流媒体丨
+      - 🇭🇰 香港原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生2-负载均衡-解锁流媒体
+      - 🇰🇷 韩国原生3-负载均衡-解锁流媒体
       - 🇯🇵 日本原生1-负载均衡-解锁流媒体
       - 🇯🇵 日本原生2-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体 2
+      - 🇯🇵 日本原生3-负载均衡-解锁流媒体
       - 🇺🇲 美国原生1-负载均衡-解锁流媒体
       - 🇺🇲 美国原生2-负载均衡-解锁流媒体
+      - 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体
       - 🇨🇳 台湾01丨原生IP丨
       - 🇨🇳 台湾02丨原生IP丨
       - 🇸🇬 新加坡01丨原生IP丨
-      - 🇸🇬 新加坡02丨原生IP丨
       - 🇸🇬 新加坡03丨原生IP丨
+      - 🇸🇬 新加坡4
+      - 🇸🇬 新加坡5
+      - 🇸🇬 新加坡6
       - 🇯🇵 日本丨①
       - 🇯🇵 日本丨②
       - 🇯🇵 日本丨③
@@ -136,24 +191,35 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅)
+      - 🇨🇳 TW1(如遇节点失效请点击左上角订阅)
+      - 🇯🇵 JP1(IEPL)+-+负载均衡专线
+      - 🇰🇷 KR1(IEPL)+-+负载均衡专线
+      - 🇸🇬 SG1(IEPL)+-+负载均衡专线
+      - 🇺🇲 US1(IEPL)+-+负载均衡专线
+      - 🇷🇺 RU1(IEPL)+-+负载均衡专线
+      - 🇭🇰 香港HGC-1丨流媒体解锁丨
+      - 🇭🇰 香港HGC-2丨流媒体解锁丨
       - 🇭🇰 香港HGC-3丨解锁HK流媒体丨
       - 🇭🇰 香港HGC-4丨解锁HK流媒体丨
       - 🇭🇰 香港SC-5丨解锁SG流媒体丨
       - 🇭🇰 香港SC-6丨解锁SG流媒体丨
+      - 🇭🇰 香港原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生2-负载均衡-解锁流媒体
+      - 🇰🇷 韩国原生3-负载均衡-解锁流媒体
       - 🇯🇵 日本原生1-负载均衡-解锁流媒体
       - 🇯🇵 日本原生2-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体 2
+      - 🇯🇵 日本原生3-负载均衡-解锁流媒体
       - 🇺🇲 美国原生1-负载均衡-解锁流媒体
       - 🇺🇲 美国原生2-负载均衡-解锁流媒体
+      - 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体
       - 🇨🇳 台湾01丨原生IP丨
       - 🇨🇳 台湾02丨原生IP丨
       - 🇸🇬 新加坡01丨原生IP丨
-      - 🇸🇬 新加坡02丨原生IP丨
       - 🇸🇬 新加坡03丨原生IP丨
+      - 🇸🇬 新加坡4
+      - 🇸🇬 新加坡5
+      - 🇸🇬 新加坡6
       - 🇯🇵 日本丨①
       - 🇯🇵 日本丨②
       - 🇯🇵 日本丨③
@@ -163,24 +229,35 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅)
+      - 🇨🇳 TW1(如遇节点失效请点击左上角订阅)
+      - 🇯🇵 JP1(IEPL)+-+负载均衡专线
+      - 🇰🇷 KR1(IEPL)+-+负载均衡专线
+      - 🇸🇬 SG1(IEPL)+-+负载均衡专线
+      - 🇺🇲 US1(IEPL)+-+负载均衡专线
+      - 🇷🇺 RU1(IEPL)+-+负载均衡专线
+      - 🇭🇰 香港HGC-1丨流媒体解锁丨
+      - 🇭🇰 香港HGC-2丨流媒体解锁丨
       - 🇭🇰 香港HGC-3丨解锁HK流媒体丨
       - 🇭🇰 香港HGC-4丨解锁HK流媒体丨
       - 🇭🇰 香港SC-5丨解锁SG流媒体丨
       - 🇭🇰 香港SC-6丨解锁SG流媒体丨
+      - 🇭🇰 香港原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生2-负载均衡-解锁流媒体
+      - 🇰🇷 韩国原生3-负载均衡-解锁流媒体
       - 🇯🇵 日本原生1-负载均衡-解锁流媒体
       - 🇯🇵 日本原生2-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体 2
+      - 🇯🇵 日本原生3-负载均衡-解锁流媒体
       - 🇺🇲 美国原生1-负载均衡-解锁流媒体
       - 🇺🇲 美国原生2-负载均衡-解锁流媒体
+      - 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体
       - 🇨🇳 台湾01丨原生IP丨
       - 🇨🇳 台湾02丨原生IP丨
       - 🇸🇬 新加坡01丨原生IP丨
-      - 🇸🇬 新加坡02丨原生IP丨
       - 🇸🇬 新加坡03丨原生IP丨
+      - 🇸🇬 新加坡4
+      - 🇸🇬 新加坡5
+      - 🇸🇬 新加坡6
       - 🇯🇵 日本丨①
       - 🇯🇵 日本丨②
       - 🇯🇵 日本丨③
@@ -207,24 +284,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港HGC-2(如遇节点失效请手动更新订阅)
+      - 🇨🇳 TW1(如遇节点失效请点击左上角订阅)
+      - 🇯🇵 JP1(IEPL)+-+负载均衡专线
+      - 🇰🇷 KR1(IEPL)+-+负载均衡专线
+      - 🇸🇬 SG1(IEPL)+-+负载均衡专线
+      - 🇺🇲 US1(IEPL)+-+负载均衡专线
+      - 🇷🇺 RU1(IEPL)+-+负载均衡专线
+      - 🇭🇰 香港HGC-1丨流媒体解锁丨
+      - 🇭🇰 香港HGC-2丨流媒体解锁丨
       - 🇭🇰 香港HGC-3丨解锁HK流媒体丨
       - 🇭🇰 香港HGC-4丨解锁HK流媒体丨
       - 🇭🇰 香港SC-5丨解锁SG流媒体丨
       - 🇭🇰 香港SC-6丨解锁SG流媒体丨
+      - 🇭🇰 香港原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生1-负载均衡-解锁流媒体
       - 🇰🇷 韩国原生2-负载均衡-解锁流媒体
+      - 🇰🇷 韩国原生3-负载均衡-解锁流媒体
       - 🇯🇵 日本原生1-负载均衡-解锁流媒体
       - 🇯🇵 日本原生2-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体
-      - 🇬🇧 英国原生-负载均衡-解锁流媒体 2
+      - 🇯🇵 日本原生3-负载均衡-解锁流媒体
       - 🇺🇲 美国原生1-负载均衡-解锁流媒体
       - 🇺🇲 美国原生2-负载均衡-解锁流媒体
+      - 🇷🇺 俄罗斯原生1-负载均衡-解锁流媒体
       - 🇨🇳 台湾01丨原生IP丨
       - 🇨🇳 台湾02丨原生IP丨
       - 🇸🇬 新加坡01丨原生IP丨
-      - 🇸🇬 新加坡02丨原生IP丨
       - 🇸🇬 新加坡03丨原生IP丨
+      - 🇸🇬 新加坡4
+      - 🇸🇬 新加坡5
+      - 🇸🇬 新加坡6
       - 🇯🇵 日本丨①
       - 🇯🇵 日本丨②
       - 🇯🇵 日本丨③
